@@ -1,0 +1,3 @@
+
+# Avisar cuando el stock este por terminarse
+ALTER TABLE `utb_productos` ADD `int_Alerta` INT NULL DEFAULT '5' ;
